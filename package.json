@@ -2,7 +2,7 @@
   "name": "mastermind",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://jeanm.github.io/mastermind",
+  "homepage": "https://jeanmatar92.github.io/mastermind",
   "dependencies": {
     "caniuse-lite": "^1.0.30001727",
     "cra-template-pwa-typescript": "2.0.0",
