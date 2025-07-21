@@ -400,6 +400,25 @@
   padding-right: 4px;
   flex: 1; /* Take remaining space */
   min-height: 0; /* Allow flex item to shrink */
+  /* Custom Scrollbar Styles */
+  scrollbar-width: thin;
+  scrollbar-color: #ff4e50 rgba(255,255,255,0.15);
+}
+.guesses-list::-webkit-scrollbar {
+  width: 10px;
+  background: rgba(255,255,255,0.08);
+  border-radius: 8px;
+}
+.guesses-list::-webkit-scrollbar-thumb {
+  background: linear-gradient(135deg, #ff4e50 0%, #f9d423 100%);
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.12);
+}
+.guesses-list::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(135deg, #f9d423 0%, #ff4e50 100%);
+}
+.guesses-list::-webkit-scrollbar-corner {
+  background: transparent;
 }
 
 .guess-row {
